@@ -100,10 +100,10 @@ const HomePage = () => {
     };
     return (
         <>
-            <div className="HeroSection overflow-hidden z-0" style={{ backgroundImage: `url(${activeImage})` }}>
+            <div className="HeroSection overflow-hidden  z-0" style={{ backgroundImage: `url(${activeImage})` }}>
                 <div className='relative'>
                     <PublicHeader />
-                    <div className="container w-full mt-5 mx-auto ">
+                    <div className="container w-full mt-5 mx-auto p-3 ">
                         <div className="flex lg:flex-row flex-col items-center contentSection h-auto z-10 ">
                             <div className='lg:w-1/2 w-full md:pr-9 '>
                                 {data?.country && (
